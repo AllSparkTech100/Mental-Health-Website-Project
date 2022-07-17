@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+    text-decoration: none;
+}
+
+.about-header{
+    display: flex;
+    height: 60px;
+    background-color: rgb(20, 175, 227);
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    .logo{
+        font-family:  Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: white;
+        margin-left: 2rem;
+        font-weight: bold;
+        align-items: center;
+
+        span{
+            font-size: 34px;
+            font-weight: bolder;
+            color: navy;
+        }
+    }
+
+    .nav{
+        .fa-bars{
+            display: none;
+        }
+
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            // transform: translateX(500%);
+            // transition: 0.5s;
+
+            li{
+                margin: 0 5px;
+
+                a{
+                    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    font-weight: bold;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+.about-main{
+    background-image: linear-gradient(rgba(0,0,0,0.4)), url(../../images/fam.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.we{
+    position: relative;
+    top: 100px;
+    width:50%;
+
+    .blu{
+        background-color: blue;
+        padding: .9rem 3rem;
+        border-radius: 30px;
+        align-items: center;
+        border: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        position: relative;
+        top: 95px;
+        left: 10rem;
+    }
+
+
+    h2{
+        text-align: center;
+        color: snow;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 7rem;
+        line-height: 1cm;
+        text-transform: capitalize;
+        font-size: 35px;
+        font-weight: bold;
+        position: relative;
+        top: 20px;
+        color: black;
+    }
+    
+    p{
+        position: relative;
+        color: black;
+        text-align: center;
+        top: -80px;
+        text-transform: capitalize;
+    }
+
+       img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+        position: relative;
+        left: 50rem;
+        bottom: 19rem;
+       }
+
+       .box{
+        height: 40px;
+        width: 150px;
+        background-color: white;
+        padding: 1rem;
+        position: relative;
+        left: 48rem;
+        bottom: 27rem;
+        border-radius: 0 20px 0 20px;
+        box-shadow: 2px 2px 4px #000, -2px 1px 6px #000;
+        justify-content: center;
+        align-items: center;
+
+        h6{
+            text-align: left;
+            top: -9px;
+            position: relative;
+            font-weight: 800;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 12px;
+            line-height: 5mm;
+        }
+       }
+}
